@@ -2,3 +2,6 @@
 Blockchain Python
 
 Empezando!
+
+Creando Cadena de Bloques
+Creando Cripto
