@@ -4,17 +4,21 @@ Created on Tue Jan 25 10:57:15 2022
 
 @author: Walter
 """
-# Cadena de Bloques
+# Crear Criptomoneda
 
 # Instalar:
 # Flask 1.1.2
 # Cliente HTTP Postman: https://www.getpostman.com/
+# requests==2.25.1: pip install requests==2.25.1
 
 # Librerias
 import datetime
 import hashlib
 import json
-from flask import Flask, jsonify
+from flask import Flask, jsonify, request
+import requests
+from uuid import uuid4
+from urllib.parse import urlparse  
 
 # Crear Clase Blockchain
 class Blockchain:
