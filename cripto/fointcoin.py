@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Thu Sep  2 09:33:47 2021
+Created 
 
-@author: juangabriel
+@author: 
 """
 
 
@@ -150,7 +150,7 @@ def is_valid():
     if is_valid:
         response = {'message' : 'Todo correcto. La cadena de bloques es válida.'}
     else:
-        response = {'message' : 'Houston, tenemos un problema. La cadena de bloques no es válida.'}
+        response = {'message' : 'Ameo,tenemos un problema. La cadena de bloques no es válida.'}
     return jsonify(response), 200  
 
 
